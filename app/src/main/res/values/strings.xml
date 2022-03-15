@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DynamicColorDmo</string>
+    <string name="app_name">Rent and Ride</string>
     <string name="txt_next">Next</string>
     <string name="txt_otp_msg">OTP will sent on email</string>
     <string name="hint_email">Email</string>
