@@ -61,49 +61,6 @@
             android:textColor="@color/material_dynamic_primary10" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- <com.google.android.material.textfield.TextInputLayout
-         android:id="@+id/edt_password_layout"
-         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:layout_marginStart="16dp"
-         android:layout_marginTop="16dp"
-         android:layout_marginEnd="16dp"
-         android:hint="Password"
-         app:counterEnabled="true"
-         app:counterMaxLength="12"
-         app:errorEnabled="true"
-         app:hintTextColor="@color/material_dynamic_primary10"
-         app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toBottomOf="@+id/edt_profile_email_layout"
-         app:passwordToggleEnabled="true"
-         app:startIconContentDescription="User"
-         app:startIconDrawable="@drawable/ic_password"
-         app:startIconTint="@color/material_dynamic_neutral10">
-
-         <com.google.android.material.textfield.TextInputEditText
-             android:id="@+id/edt_password"
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:textColor="@color/black"
-             app:counterMaxLength="12" />
-
-     </com.google.android.material.textfield.TextInputLayout>-->
-
-    <!--<com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/switch_remember_me"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:thumbTint="@color/material_dynamic_primary10"
-        android:text="remember me"
-        android:textColor="@color/material_dynamic_primary10"
-        app:layout_constraintEnd_toStartOf="@+id/tv_forget_password"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edt_password_layout"
-        app:layout_constraintTop_toBottomOf="@+id/edt_password_layout" />-->
-
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv_forget_password"
         android:layout_width="wrap_content"
@@ -126,6 +83,7 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="24dp"
         android:text="@string/txt_next"
+        android:textColor="@color/material_dynamic_primary100"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_forget_password" />
